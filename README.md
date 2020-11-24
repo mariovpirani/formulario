@@ -12,20 +12,20 @@ Nesse modelo é utilizado o mail() do php
 
 ## Arquivos / Tree
 
-├── index.html
-├── src
-│   js
-│   ├── footer.html
-│   └── header.html
-│   css
-│   ├── formulario.css
-│   js
-│   ├── bross.js
-│   php
-│   ├── recaptcha.php
-│   └── contatoEnvia.php
-│   imagens
-│   ├── 200.gif
+├── index.html<br>
+├── src<br>
+│   js<br>
+│   ├── footer.html<br>
+│   └── header.html<br>
+│   css<br>
+│   ├── formulario.css<br>
+│   js<br>
+│   ├── bross.js<br>
+│   php<br>
+│   ├── recaptcha.php<br>
+│   └── contatoEnvia.php<br>
+│   imagens<br>
+│   ├── 200.gif<br>
 
 ### Passos
 
@@ -71,30 +71,31 @@ Alterar o **data-sitekey** com seu [Recaptcha](https://www.google.com/recaptcha/
 
 - [ ] Passo 2
 Alterar as **variaveis** do arquivo (src/php/contatoEnvia.php)
-    ## Chave Secreta
+    ### Chave Secreta
     - [ ] $secret = "suachavevaiaqui";
-    ## Seu site
+    ### Seu site
     - [ ] $site = "www.suaurl.com.br";
-    ## Nome da Empresa
+    ### Nome da Empresa
     - [ ] $nomeEmpresa = "Sua Empresa";
-    ## Telefone de sua empresa (11) 1111-1111
+    ### Telefone de sua empresa (11) 1111-1111
     - [ ] $telefoneEmpresa = "Seu Telefone";
-    ## Url de seu logo ou deixe em branco
+    ### Url de seu logo ou deixe em branco
     - [ ] $urlLogo = "";
-    ## Seu E-mail
+    ### Seu E-mail
     - [ ] $seuEmail = "seuemailaqui@gmail.com";
 
 ### Passo 3
 Instanciar o js, css e recaptcha
-
+```HTML
 <link rel="stylesheet" href="src/css/formulario.css">
 <script src="https://www.google.com/recaptcha/api.js" async defer> </script>
 <script src="src/js/bross.js" async defer> </script>
+```
 
 
 # Pronto para usar
-Mario Veiga - @mariovpirani
-Bross Lightyear - @brosslightyear
+Mario Veiga - @mariovpirani<br>
+Bross Lightyear - @brosslightyear<br>
 
 
 
