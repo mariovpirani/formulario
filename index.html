@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale=1, minimal-ui"/>
+
+        <link rel="stylesheet" href="src/css/formulario.css">
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <div class="formularioBross">
+            <form id="formBross" onsubmit="return(enviarFormBross());" method="POST">
+                <input class="inputBross" name="nome" placeholder="Nome" required>
+                <input class="inputBross" name="email" placeholder="E-mail" required type="email">
+                <input class="inputBross" name="whatsapp" placeholder="Whatsapp" required>
+                <select name="assunto" class="selectBross" required>
+                    <option disabled selected>-- Assunto</option>
+                    <option value="Orçamento" >Orçamento</option>
+                    <option value="Contato" >Contato</option>
+                </select>
+                <textarea class="textareaBross" name="mensagem" placeholder="Digite sua mensagem" ></textarea>
+                <div class="recaptchaBross">
+                <span class="g-recaptcha" id="rcaptcha"  data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></span>
+                </div>
+                <button type="submit" name="botao" >Enviar Contato</button>
+            </form>
+        </div>
+        <script src="https://www.google.com/recaptcha/api.js" async defer> </script>
+        <script src="src/js/bross.js" async defer> </script>
+    </body>
+</html>
