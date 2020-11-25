@@ -1,7 +1,7 @@
 # formulario
 Formulário Javacript + Recaptcha + PHP 
 
-Esse formulário foi criado para ajudar os iniciantes a utilizarem formulários de contato em seus sites criados.
+Esse formulário foi criado para facilitar a vida dos iniciantes em programação.<br>
 Utilizei SASS, HTML, Javascript PURO e PHP nesse form.
 
 Não necessita de jquery nem bootstrap
