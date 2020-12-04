@@ -20,7 +20,6 @@ $site = "www.suaurl.com.br";
 $nomeEmpresa = "Sua Empresa";
 $telefoneEmpresa = "Seu Telefone";
 $urlLogo = "http://tosempreai.com.br/wp-content/uploads/2017/06/tosempreai.png";
-//AQUI ENVIO O PRIMEIRO EMAIL PARA O DESTINATARIO
 $seuEmail = "seuemailaqui@gmail.com";
 
 
