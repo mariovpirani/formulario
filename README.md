@@ -99,6 +99,19 @@ Instanciar o js, css e recaptcha
 <script src="src/js/bross.js" async defer> </script>
 ```
 
+### Caso queira colocar novos input basta seguir os passos abaixo
+
+Inserir entre os input 
+```
+<input class="inputBross" name="nomedocampo" placeholder="Nome do Campo" required>
+```
+inserir o input alterando o **name** e o **placeholder** - apenas isso
+
+### LEMBRANDO que o php irá reconhecer o campo automáticamente na hora do disparo
+
+
+### NÃO EXCLUIR CAMPO NOME, EMAIL E ASSUNTO SÃO NECESSÁRIOS PARA UM BOM FUNCIONAMENTO
+
 
 # Pronto para usar
 Mario Veiga - @mariovpirani<br>
