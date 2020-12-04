@@ -21,9 +21,6 @@ Nesse modelo é utilizado o mail() do php
 
 ├── index.html<br>
 ├── src<br>
-│   js<br>
-│   ├── footer.html<br>
-│   └── header.html<br>
 │   css<br>
 │   ├── formulario.css<br>
 │   js<br>
